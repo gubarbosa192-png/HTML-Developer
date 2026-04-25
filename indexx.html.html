@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="indice"> Introdução ao HTML</h1>
+    <hr />
+    <h1>O que é HTML?</h1>
+    <h2>Aprendizado básico com HTML</h2>
+
+    <h3>Índice</h3>
+        <li><a href="#p1">História do HTML </a></li>
+        <li><a href="#p2"> <i>Clients</i></a></li>
+        <li><a href="#p3"> <i>Servers</i></a></li>
+        <li><a href="#p4">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#p5">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#p6">Links de referências</a></li>
+    </ul>
+
+    <h2 id="p1">História do HTML</h2> 
+    <h6> <a href="#indice">Voltar </a></h6>
+    <ul>
+
+    <p><li> O <strong><u> HTML (HyperText Markup Language)</strong></u> foi criado por Tim Berners-Lee nos anos 90 com a finalidade inicial de tornar possivel o acesso e a troca de informações de documentação de pesquisas, entre cientistas de diferentes universidades.</li></p>
+    <p> <li>
+    
+    Em 1995, a importância do HTML cresceu significativamente com a criação do <strong >Wide Web Consortium (W3C) </strong>, uma organização internacional que desenvolve padrões para a web. Nesse mesmo ano, foi lançada a versão 2.0 do HTML, que formalizou as características da linguagem e garantiu uma base sólida para seu desenvolvimento futuro.</p></li>
+    <p><li> Desde então, o HTML passou por várias atualizações, com a versão mais recente sendo o <strong>HTML5</strong>, lançado em 2014. O HTML5 trouxe uma série de melhorias e novos recursos, como suporte nativo para multimídia, gráficos vetoriais e APIs avançadas para desenvolvimento web. Hoje, o HTML é a espinha dorsal da web, permitindo a criação de páginas e aplicações interativas que são acessíveis a bilhões de pessoas em todo o mundo.</p></li>
+    </ul>
+    
+    <h2 id="p2"><i>Clients</i></h2>
+    <h6> <a href="#indice">Voltar </a></h6>
+
+    <p><strong><u>Client</u> </strong> (Requisitante) <mark> é o dispositivo ou aplicação que inicia a comunicação fazendo uma solicitação</mark>. Exemplos comuns de clientes incluem navegadores, <strong>(Chrome, Firefox)</strong>, aplicativos de celular <strong>(WhatsApp, Instagram)</strong> e computadores pessoais. O cliente foca na interação com o usuário.
+    </p>
+
+    <h2 id="p3"> <i>Servers</i></h2>
+    <h6> <a href="#indice">Voltar </a></h6>
+   <p><strong><u>Servidores</u> </strong>(Provedor)  O servidor processa essas solicitações, recupera as informações relevantes e as envia de volta ao cliente. Por exemplo, um servidor web responde com dados do site quando um navegador os solicita.</p>
+
+    <h3>Tipos comuns de servidores</h3>
+     <p>Existem diversos tipos de servidores, cada um especializado em uma função específica.</p>
+   <blockquote>
+
+    <ul>
+        <li><strong>Servidor Web:</strong> Entrega páginas de sites (HTML, imagens) para o seu navegador. Exemplos: Apache e Nginx.</li>
+        <li><strong>Servidor de Banco de Dados:</strong> Onde as informações organizadas ficam guardadas. Quando você faz login, é ele quem valida sua senha. Exemplos: MySQL e PostgreSQL.</li>
+        <li><strong>Servidor de E-mail:</strong> Gerencia o envio e recebimento de mensagens através de protocolos como SMTP e IMAP.</li>
+        <li><strong>Servidor de Arquivos:</strong> Centraliza o armazenamento de documentos para que várias pessoas em uma rede possam acessá-los com segurança.</li>
+        <li><strong>Servidor DNS:</strong> Funciona como a "lista telefônica" da internet, convertendo nomes de domínios (como google.com) em endereços IP.</li>
+    </ul>
+    </blockquote>
+
+
+    <h2 id="p4">Estrutura básica de um <sub><a href="https://www.w3schools.com/TAGs/" target="_blank">HTML</a></sub></h2>
+    <h6> <a href="#indice">Voltar </a></h6>
+     <p>A página inicial do site é, por uma convenção, chamada de <strong><i><u>index.html</u></i></strong>. Por padrão, diversos sites espalhados pela internet estarão utilizando essa nomenclatura para sua página principal.</p>
+     <abbr title="HyperText Markup Language"><strong><u>HTML</u></strong></abbr> é uma linguagem de marcação usada para criar páginas da web. Ela é composta por uma série de elementos, conhecidos como <strong><u>tags</u></strong>, que definem a estrutura e o conteúdo de um documento. A estrutura básica de um documento HTML inclui as seguintes tags principais:
+
+    <p>Um site é formado, de basicamente, por três <strong><u>tags principais</u></strong>:</p>
+     <blockquote>
+    <ol>
+        <li><strong>html</strong>: marca aquele pedaço de texto como <strong>HTML</strong></li>
+        <li><strong>head</strong>: delimita a "cabeça" do site, o conteúdo que não aparece no corpo da página</li>
+        <li><strong>body</strong>: define aquele pedaço como o corpo da página, que conterá títulos, textos, fotos e mais</li>
+    </ol>
+    </blockquote>
+ <p>Essas três tags HTML iniciais definem o básico do corpo de uma página HTML, dividindo a parte das configurações da página e a parte que o usuário vê (o corpo da página).</p>
+  <h3>Tags e suas funções</h3>
+    <p><strong><u>Tags</u></strong> <mark>são os elementos básicos do HTML que definem a estrutura e o conteúdo de uma página web.</mark> Elas são usadas para criar títulos, parágrafos, listas, links, imagens e muito mais. Cada tag tem uma função específica e é delimitada por colchetes angulares (< >).</p>
+        <p>Algumas das tags mais usadas no HTML são:</p>
+    <ul>   
+<blockquote>      
+<li> <strong>html</strong>: Define o início do documento HTML.</li>
+<li><strong>head</strong>: Contém metadados e links para scripts e estilos.</li>
+<li><strong>body</strong>: Contém todo o conteúdo visível da página.</li>
+<li> <strong>h1 a h6</strong>: Usadas para títulos e subtítulos.</li>
+<li> <strong>p</strong>: Define um parágrafo.</li>
+<li> <strong>title</strong>: Define o título da página.</li>
+<li> <strong>body</strong>: Contém o conteúdo da página.</li>
+<li> <strong>h1 a h6</strong>: Títulos e subtítulos.</li>
+<li> <strong>p</strong>: Parágrafos.</li>
+<li> <strong>a</strong>: Links.</li>
+<li> <strong>img</strong>: Imagens.</li>
+<li> <strong>ul e ol</strong>: Listas não ordenadas e ordenadas.</li>
+<li> <strong>li</strong>: Itens de lista.</li>
+<li> <strong>div</strong>: Divisões ou seções de conteúdo.</li>
+<li> <strong>del</strong>: <mark> <del>Texto excluído</del>.</mark></li>
+<li> <strong>i</strong>: <i>Texto em itálico</i>.</li>
+</blockquote>
+</ul>
+
+<h4>Tags adicionais importantes:</h4>
+<ul>
+<blockquote>
+ <li><strong>link</strong>: Usada para vincular folhas de estilo externas.</li>
+
+<li><strong>meta</strong>: Fornece metadados sobre o documento HTML.</li>
+
+<li><strong>span</strong>: Usada para agrupar elementos em linha para aplicar estilos.</li>
+
+<li><strong>table</strong>: Cria tabelas.</li>
+
+<li><strong>form</strong>: Cria formulários para entrada de dados.</li>
+</blockquote>
+</ul>
+    
+    <h2 id="p5">Diferença entre listas ordenadas e não ordenadas</h2>
+    <h6> <a href="#indice">Voltar </a></h6>
+     <p>Listas são formadas com uma tag mãe, definindo o tipo da lista, e os seus filhos, que seriam os itens dessa lista. As listas podem ser ordenadas <mark>< ol >< /ol ></mark> ou não ordenadas <mark>< ul >< /ul ></mark>. Haverão itens dentro dessas listas, determinadas pela tag <mark>< li >< /li ></mark>.</p>
+
+    <h3>Lista ordenada</h3>
+
+    Listas <u>ordenadas</u> são construídas a partir da tag <mark>< ol >< /ol ></mark>, e dentro dessa tag, os itens com a tag <mark>< li >< /li ></mark>.
+
+    <ol>
+        <blockquote>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        </blockquote>
+    </ol>
+
+    <h3>Lista não ordenada</h3>
+
+    Listas <u>não ordenadas</u> são construídas a partir da tag <mark>< ul >< /ul ></mark>, e dentro dessa tag, os itens com a tag <mark>< li >< /li ></mark>.
+
+    <ul>
+            <blockquote>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        </blockquote>
+    </ul>
+
+    <h2 id="p6">Links de referências</h2>
+    <h6> <a href="#indice">Voltar </a></h6>
+    
+    <ul>
+        <li><a href="https://pt.scribd.com/document/268777152/Historia-do-HTML" target="_blank">História do HTML</a></li>
+        <li><a href="https://web.dio.me" target="_blank">Clients</a></li>
+        <li><a href="https://www.hostgator.com.br/blog/servidores-web/" target="_blank">Servers</a></li>
+        <li><a href="https://www.w3schools.com/TAGs/" target="_blank"> Estrutura básica de um HTML</a></li>
+        <li><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">Diferença entre listas ordenadas e não ordenadas</a></li>
+    </ul>
+
+</body>
+</html>
